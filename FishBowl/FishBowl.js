@@ -43,7 +43,7 @@ const Fishbowl = () => {
           <img
             ref={fishRef} src="goldfish.png" alt="Goldfish"
             style={{
-              transform: `rotate(${rotation}deg) ${isFlipped ? 'scaleX(-1)' : 'scaleX(1)'}`,
+              transform: `rotate(${rotation}deg) ${isFlipped ? 'scaleX(1)' : 'scaleX(-1)'}`,
               transition: 'transform 3s ease',
             }}
           />
