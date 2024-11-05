@@ -8,14 +8,13 @@
   width: 250px; 
   height: 250px; 
   border-radius: 50%;
-  background-color: #b2c1d1; 
+  background-color: #0f3258; 
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 10px solid #cdd9e6; 
   top: 100px;
-  box-shadow: inset -20px -20px 15px #cdd9e6; ;
+  box-shadow: inset -20px -20px 50px #9ba5af; ;
 }
 
 .fish {
