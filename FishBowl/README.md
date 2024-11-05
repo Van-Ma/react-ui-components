@@ -8,7 +8,7 @@ The fish smoothly rotates and flips to face the cursor, and gently swims back an
 ## Features
 - **Mouse-Responsive Movement**: The fish rotates and flips based on the mouse cursor’s position.
 - **Swimming Animation**: The fish swims with a subtle animation, making it appear lively.
-- **Stylish Fishbowl Design**: The fishbowl has a soft, rounded look with a border and shadow effect for depth.
+- **Stylish Fishbowl Design**: The fishbowl has a soft, rounded look with a shadow effect for depth.
 
 ## Usage
 
