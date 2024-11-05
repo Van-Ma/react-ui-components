@@ -1,0 +1,53 @@
+.fishbowl-container{
+  display: flex;
+  justify-content: center;
+}
+
+.fishbowl {
+  position: relative;
+  width: 250px; 
+  height: 250px; 
+  border-radius: 50%;
+  background-color: #b2c1d1; 
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 10px solid #cdd9e6; 
+  top: 100px;
+  box-shadow: inset -20px -20px 15px #cdd9e6; ;
+}
+
+.fish {
+  position: absolute;
+  animation: swim 10s linear infinite;
+}
+
+.fish img {
+  height: 100px;
+  width: auto;
+}
+
+
+
+
+@keyframes swim {
+  0% {
+    transform: translateX(0) rotate(0deg);
+  }
+  20% {
+    transform: translateX(5px) rotate(5deg); 
+  }
+  40% {
+    transform: translateX(0) rotate(0deg); 
+  }
+  60% {
+    transform: translateX(5px) rotate(5deg); 
+  }
+  80% {
+    transform: translateX(-5px) rotate(0deg); 
+  }
+  100% {
+    transform: translateX(0) rotate(0deg); 
+  }
+}
