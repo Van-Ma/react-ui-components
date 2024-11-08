@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './daynight-button.css';
 
-const ToggleButton = () => {
+const DayNightButton = () => {
   const [isOn, setIsOn] = useState(false);
 
   const toggleButton = () => {
