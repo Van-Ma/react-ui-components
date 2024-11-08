@@ -20,7 +20,7 @@ You can use the `DayNightButton` component in your own React application by impo
 
 ```jsx
 import React from 'react';
-import DayNightButton from './DayNightButton'; // Path to your DayNightButton component
+import DayNightButton from './DayNightButton'; 
 
 const App = () => {
   return (
