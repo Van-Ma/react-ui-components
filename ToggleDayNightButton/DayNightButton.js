@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './togglebutton.css';
+import './daynight-button.css';
 
 const ToggleButton = () => {
   const [isOn, setIsOn] = useState(false);
@@ -26,4 +26,4 @@ const ToggleButton = () => {
   );
 };
 
-export default ToggleButton;
+export default DayNightButton;
